@@ -1,0 +1,55 @@
+/* Reset CSS */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+}
+
+/* Header Styling */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center; /* Menyatukan teks ke tengah */
+}
+
+/* Container Styling */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; /* Menyatukan teks ke tengah */
+}
+
+/* Card Styling */
+.card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Button Styling */
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
